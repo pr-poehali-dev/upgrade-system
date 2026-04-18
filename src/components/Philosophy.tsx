@@ -47,7 +47,7 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              Наша философия
+              Суть проблемы
             </p>
 
             <h2
@@ -55,10 +55,10 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Искусство
-              <span className="italic"> осознанной</span>
+              Что такое
+              <span className="italic"> накипь</span>
               <br />
-              жизни
+              и откуда она?
             </h2>
 
             <div
@@ -67,13 +67,12 @@ export function Philosophy() {
               }`}
             >
               <p>
-                Мы верим, что каждое пространство таит в себе потенциал для преображения. Не через добавление,
-                а через бережное вычитание — открывая то, что всегда было предначертано.
+                Накипь — это твёрдый осадок, который образуется на стенках чайника при нагреве воды. Она состоит
+                преимущественно из карбоната кальция (CaCO₃) и гидроксида магния (Mg(OH)₂).
               </p>
               <p>
-                Наш подход вдохновлён японской концепцией <em className="text-foreground">ма</em> — глубокой
-                красотой пустоты — и скандинавским пониманием
-                <em className="text-foreground"> хюгге</em>, этого ощущения уютного умиротворения.
+                Жёсткая вода содержит ионы Ca²⁺ и Mg²⁺. При кипячении они вступают в реакцию и выпадают в
+                осадок: <em className="text-foreground">Ca²⁺ + 2HCO₃⁻ → CaCO₃↓ + H₂O + CO₂↑</em>
               </p>
             </div>
 
@@ -84,16 +83,16 @@ export function Philosophy() {
               }`}
             >
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">12</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Лет опыта</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">1–2 мм</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">толщина слоя накипи</p>
               </div>
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">140+</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Проектов</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">×10</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">рост затрат энергии</p>
               </div>
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">8</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Наград</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">CaCO₃</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">главный виновник</p>
               </div>
             </div>
           </div>

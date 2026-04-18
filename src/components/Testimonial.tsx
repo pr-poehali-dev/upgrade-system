@@ -39,8 +39,7 @@ export function Testimonial() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Работа с Wabi была похожа на медитацию. Они поняли, что наш дом должен поддерживать
-          благополучие семьи, а не просто красиво выглядеть. Результат — пространство, которое наконец ощущается как наше.
+          Знание химии помогает решать реальные бытовые проблемы. Накипь — наглядный пример того, как теория превращается в практику прямо у тебя на кухне.
         </blockquote>
 
         {/* Attribution */}
@@ -49,8 +48,8 @@ export function Testimonial() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <p className="text-sm tracking-widest uppercase text-primary-foreground/80">Анна и Михаил Петровы</p>
-          <p className="text-sm text-primary-foreground/60 mt-1">Резиденция в Москве</p>
+          <p className="text-sm tracking-widest uppercase text-primary-foreground/80">Вывод проекта</p>
+          <p className="text-sm text-primary-foreground/60 mt-1">Химия 8 класс, 2026 г.</p>
         </div>
       </div>
     </section>
